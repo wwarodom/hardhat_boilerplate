@@ -19,7 +19,7 @@ function App() {
 
   async function connect() {
     // provider = new ethers.providers.Web3Provider(window.ethereum)
-    // await provider.send('eth_requstAcounts',[]); // ethereum.enable()
+    // await provider.send('eth_requestAccounts',[]); // ethereum.enable()
 
     provider =  new ethers.providers.JsonRpcProvider();
     signer = provider.getSigner();
